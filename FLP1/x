@@ -1,0 +1,27 @@
+5 REMark roman_convert_4
+7 PAPER 0 : INK 7
+10 CLS : CLS #0 : CLS#1 : CLS#2 :LIST
+20 f$ = "flp1_roman_convert_4_out.txt"
+30 OPEN_NEW #7, f$
+105 FOR n = 1 TO 3999
+107 PRINT n;" ";
+108 PRINT #7, n;" ";
+110 number = n
+120 RESTORE 210
+130 FOR type = 0 TO 12
+140 READ letter$, value
+150 REPeat output
+160 IF number < value : EXIT output
+170 PRINT letter$;
+175 PRINT #7, letter$;
+180 LET number = number - value
+190 END REPeat output
+200 END FOR type
+210 DATA "M",1000,"CM",900,"D",500,"CD",400,"C",100,"XC",90,"L",50,"XL",40,"X",10,"IX",9,"V",5,"IV",4,"I",1
+290 PRINT ""
+295 PRINT #7, ""
+300 NEXT n
+310 CLOSE #7
+998 STOP
+999 s$="roman_convert_4"
+1000 SAVE s$

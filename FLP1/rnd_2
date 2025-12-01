@@ -1,0 +1,13 @@
+5 REMark rnd_2
+7 CLS #1
+8 FOR x =  1 TO 19
+9 out$ = ""
+10 FOR a = 1 TO 35
+20 rnd$ = RND(0 TO 9)
+25 out$ = out$ & rnd$
+40 NEXT a
+45 PRINT out$
+55 NEXT x
+998 STOP
+999 s$="rnd_2"
+1000 SAVE s$
