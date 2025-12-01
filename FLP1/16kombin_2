@@ -1,0 +1,22 @@
+5 REMark 16kombin_1
+6 CLS#0:CLS#1:CLS#2:LIST
+7 poc = 1
+8 f$ = "flp1_16kombin2_out.txt"
+9 OPEN_NEW #7, f$
+10 FOR a=0 TO 1:FOR b=0 TO 1:FOR c=0 TO 1
+20 FOR d=0 TO 1:FOR e=0 TO 1:FOR f=0 TO 1
+30 FOR g=0 TO 1:FOR h=0 TO 1:FOR i=0 TO 1
+40 FOR j=0 TO 1:FOR k=0 TO 1:FOR l=0 TO 1
+50 FOR m=0 TO 1:FOR n=0 TO 1:FOR o=0 TO 1
+60 FOR p=0 TO 1
+90 PRINT poc;" ";a;b;c;d;e;f;g;h;i;j;k;l;m;n;o
+100 PRINT #7, poc;" ";a;b;c;d;e;f;g;h;i;j;k;l;m;n;o
+110 poc = poc + 1
+120 NEXT p:NEXT o:NEXT n:NEXT m
+130 NEXT l:NEXT k:NEXT j:NEXT i
+140 NEXT h:NEXT g:NEXT f:NEXT e
+150 NEXT d:NEXT c:NEXT b:NEXT a
+160 CLOSE #7
+998 STOP
+999 s$ = "FLP1_16kombin_2"
+1000 SAVE s$

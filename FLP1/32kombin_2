@@ -1,0 +1,32 @@
+5 REMark 32kombin_2
+110 CLS#0:CLS#1:CLS#2:LIST
+120 poc = 1
+130 f$ = "flp1_32kombin_2_out.txt"
+140 OPEN_NEW #7, f$
+150 FOR a=0 TO 1:FOR b=0 TO 1:FOR c=0 TO 1
+160 FOR d=0 TO 1:FOR e=0 TO 1:FOR f=0 TO 1
+170 FOR g=0 TO 1:FOR h=0 TO 1:FOR i=0 TO 1
+180 FOR j=0 TO 1:FOR k=0 TO 1:FOR l=0 TO 1
+190 FOR m=0 TO 1:FOR n=0 TO 1:FOR o=0 TO 1
+195 FOR p=0 TO 1
+200 FOR aa=0 TO 1:FOR bb=0 TO 1:FOR cc=0 TO 1
+205 FOR dd=0 TO 1:FOR ee=0 TO 1:FOR ff=0 TO 1
+210 FOR gg=0 TO 1:FOR hh=0 TO 1:FOR ii=0 TO 1
+220 FOR jj=0 TO 1:FOR kk=0 TO 1:FOR ll=0 TO 1
+230 FOR mm=0 TO 1:FOR nn=0 TO 1:FOR oo=0 TO 1
+240 FOR pp=0 TO 1
+250 PRINT poc;" ";a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p;aa;bb;cc;dd;ee;ff;gg;hh;ii;jj;kk;ll;mm;nn;oo;pp
+260 PRINT #7, poc;" ";a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p;aa;bb;cc;dd;ee;ff;gg;hh;ii;jj;kk;ll;mm;nn;oo;pp
+270 poc = poc + 1
+280 NEXT pp:NEXT oo:NEXT nn:NEXT mm
+290 NEXT ll:NEXT kk:NEXT jj:NEXT ii
+300 NEXT hh:NEXT gg:NEXT ff:NEXT ee
+310 NEXT dd:NEXT cc:NEXT bb:NEXT aa
+320 NEXT p:NEXT o:NEXT n:NEXT m
+330 NEXT l:NEXT k:NEXT j:NEXT i
+340 NEXT h:NEXT g:NEXT f:NEXT e
+350 NEXT d:NEXT c:NEXT b:NEXT a
+360 CLOSE #7
+370 STOP
+999 s$ = "FLP1_32kombin_2"
+1000 SAVE s$

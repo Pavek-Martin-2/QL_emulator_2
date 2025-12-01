@@ -1,0 +1,17 @@
+5 REMark 8kombin_2
+6 CLS
+7 p=1
+8 f$ = "flp1_8kombin2_out.txt"
+9 OPEN_NEW #7, f$
+10 FOR a=0 TO 1:FOR b=0 TO 1:FOR c=0 TO 1
+20 FOR d=1 TO 1:FOR e=0 TO 1:FOR f=0 TO 1
+30 FOR g=0 TO 1:FOR h=0 TO 1
+100 PRINT p;" ";a;b;c;d;e;f;g;h
+105 PRINT #7, p;" ";a;b;c;d;e;f;g;h
+110 p=p+1
+200 NEXT h:NEXT g:NEXT f:NEXT e
+210 NEXT d:NEXT c:NEXT b:NEXT a
+220 CLOSE #7
+998 STOP
+999 s$ = "FLP1_8kombin_2"
+1000 SAVE s$

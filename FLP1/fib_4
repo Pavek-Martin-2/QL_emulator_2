@@ -1,0 +1,17 @@
+5 REMark fib_4
+7 CLS#0:CLS#1:CLS#2
+9 LIST
+10 REMark kindlyrat fibonacci series program
+20 a=1 : b=1 : c=1
+30 f$ = "FLP1_fib_4_out.txt"
+45 OPEN_NEW #7, f$
+50 FOR n = 1 TO 1000
+60 PRINT n;" - ";a : PRINT #7,n;" - ";a
+70 a = b + c
+80 REMark down shift
+90 c=b : b=a
+110 CLOSE #7
+115 PRINT "hotovo"
+120 STOP
+999 s$="FLP1_fib_4"
+1000 SAVE s$

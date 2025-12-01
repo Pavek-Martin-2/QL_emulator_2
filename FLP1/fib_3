@@ -1,0 +1,24 @@
+5 REMark fib_3
+6 CLS#0
+7 CLS#1
+8 CLS#2
+9 LIST
+10 REMark kindlyrat fibonacci series program
+20 a = 1
+30 b = 1
+40 c = 1
+42 f$ = "FLP1_fib_3_out.txt"
+45 OPEN_NEW #7, f$
+50 FOR n = 1 TO 200
+60 REMark PRINT a
+65 PRINT n;" - ";a
+67 PRINT #7, n;" - ";a
+70 LET a = b + c
+80 REMark down shift
+90 c = b
+100 b = a
+110 NEXT n
+112 CLOSE #7
+120 STOP
+999 s$="FLP1_fib_3"
+1000 SAVE s$
