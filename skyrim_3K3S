@@ -1,0 +1,32 @@
+5 REMark skyrim_3K3S
+10 LIST
+15 CLS#1
+20 LET p=1
+30 file$ = "flp1_skyrim_output_3K3S.txt"
+40 hl1$ = "3 kruhy a na kazdym kruhu 3 symboly"
+50 hl2$ = "nejvetsi stredni nejmensi"
+60 PRINT hl1$
+70 PRINT hl2$
+80 OPEN_NEW #7, file$
+90 PRINT #7, hl1$
+100 PRINT #7, hl2$
+110 DIM kruhy$(3,6)
+120 LET kruhy$(1)="mura"
+130 LET kruhy$(2)="sova"
+140 LET kruhy$(3)="medved"
+150 FOR vk = 1 TO 3
+160 FOR sk = 1 TO 3
+170 FOR mk = 1 TO 3
+180 out$ = ""
+190 IF p < 10 THEN out$ = "0"
+200 out$ = out$ & p & " - " & kruhy$(vk) & " " & kruhy$(sk) & " " & kruhy$(mk)
+220 PRINT out$
+230 PRINT #7, out$
+240 LET p=p+1
+250 NEXT mk
+260 NEXT sk
+270 NEXT vk
+280 CLOSE #7
+998 STOP
+999 s$ = "flp1_skyrim_3K3S"
+1000 SAVE s$
