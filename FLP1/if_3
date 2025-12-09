@@ -1,0 +1,13 @@
+5 REMark if_3
+6 REMark priklad na IF, ELSE, ELSEIF, END IF
+7 CLS#1 : CLS#2 : LIST #2
+10 INPUT "zadej x ";x
+20 IF x < 0 THEN 
+25 PRINT "zaporne cislo"
+30 ELSE IF x = 0 THEN 
+40 PRINT "nula"
+50 ELSE 
+60 PRINT "kladne cislo"
+998 STOP
+999 s$="flp1_if_3"
+1000 SAVE s$

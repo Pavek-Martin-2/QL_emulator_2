@@ -1,0 +1,16 @@
+5 REMark if_4
+6 REMark priklad na IF, ELSE, ELSEIF, END IF
+7 CLS#1 : CLS#2 : LIST #2
+10 INPUT "zadej x ";x
+20 IF x = 1 THEN 
+25 PRINT "prvni moznost"
+30 ELSE IF x = 2 THEN 
+40 PRINT "druha moznost"
+50 ELSE IF x = 3 THEN 
+60 PRINT "treti moznost"
+70 ELSE 
+80 PRINT "neznama volba"
+90 END IF 
+998 STOP
+999 s$="flp1_if_4"
+1000 SAVE s$

@@ -1,0 +1,12 @@
+5 REMark if_2
+6 REMark priklad na IF, ELSE, END IF
+7 CLS#1 : CLS#2 : LIST #2
+10 INPUT "zadej x ";x
+20 IF x < 10 THEN 
+25 PRINT "x je mensi nez 10 "
+30 ELSE 
+40 PRINT "x je vetsi nez 10"
+50 END IF 
+998 STOP
+999 s$="flp1_if_2"
+1000 SAVE s$
