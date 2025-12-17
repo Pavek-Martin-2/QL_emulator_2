@@ -1,0 +1,65 @@
+5 REMark n_kombin_2
+6 REMark vygeneruje program ktery se da nahrat pomoci lrun
+10 CLS
+20 INPUT "zadej pocet cyklu : ";pc$
+30 INPUT "zadej do kololika bude cyklus : ";kc$
+35 out1$ = "flp1_" & pc$ & "_cykly_do_" & kc$
+37 REMark out1$ = "aaa"
+40 REMark PRINT out1$
+45 LET rp = 5
+50 OPEN_NEW #7, out1$
+60 r1$ = rp & " REMark " & out1$
+70 PRINT r1$
+80 PRINT #7, r1$
+90 LET rp = rp + 5
+100 REMark r2$ = rp & " let p=1"
+101 r2$ = rp & " list:let p=1"
+110 PRINT r2$
+120 PRINT #7,r2$
+125 REMark zapis cyklu pc$ do vystupu
+130 FOR aa = 1 TO pc$
+140 LET rp = rp + 5
+150 r3$ = ""
+160 r3$ = r3$ & rp & " FOR c" & aa & "=0 TO " & kc$
+170 PRINT r3$
+180 PRINT #7, r3$
+190 NEXT aa
+200 REMark zapis printu v prostredku
+210 LET rp = rp + 5
+220 r4$ = ""
+230 r4$ = r4$ & rp & " PRINT p" & ";"
+240 r4$ = r4$ & '" ";'
+250 FOR bb = 1 TO pc$
+260 r4$ = r4$ & "c" & bb
+270 IF bb < pc$ THEN 
+280 r4$ = r4$ & ";"
+290 END IF 
+300 NEXT bb
+500 PRINT r4$
+510 PRINT #7, r4$
+520 REMark inkrementace pocitadla
+530 rp = rp + 5
+540 r5$ = rp & " LET p=p+1"
+550 PRINT #7,r5$
+600 PRINT r5$
+610 REMark zapis vsech radku next v obracenem poradi
+640 FOR cc = pc$ TO 1 STEP -1
+650 rp = rp + 5
+660 r6$ = ""
+670 r6$ = r6$ & rp & " NEXT c" & cc
+680 PRINT r6$
+690 PRINT #7, r6$
+700 NEXT cc
+705 CLOSE #7
+710 REMark koncova hlaska
+720 PRINT ""
+730 PRINT "tyto radky byly zapsany do souboru"
+740 PRINT out1$
+750 PRINT "lrun " & out1$
+760 REMark nacteni a spusteni vygenerovaneho basic programu
+770 PRINT "press any key..."
+780 PAUSE
+790 LRUN out1$
+988 STOP
+999 s$="flp1_n_kombin_2"
+1000 SAVE s$
