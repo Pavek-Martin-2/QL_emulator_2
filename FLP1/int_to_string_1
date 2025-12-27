@@ -1,0 +1,12 @@
+5 REMark int_to_string_1
+10 CLS
+20 a = 123
+25 PRINT a
+27 b$ = a
+30 PRINT b$
+40 c$ = "abc"
+50 d$ = b$ & c$
+60 PRINT d$
+998 STOP
+999 save$ = "flp1_int_to_string_1"
+1000 SAVE save$

@@ -75,7 +75,7 @@
 510 IF usek = 0 THEN PRINT "chyba usek" : STOP
 515 PRINT usek & "< usek ted"
 520 REMark  nacetni souboru historie
-525 fh$="flp3_HistCas"
+525 fh$="flp1_HistCas"
 527 REMark PRINT "nacitam soubor historie"
 528 REMark PRINT '"' & fh$ & '"'
 529 PRINT "pokud ted program skonci chybou: At line 540 not found"
@@ -108,8 +108,8 @@
 640 PRINT "pridat hodinu = " & cas_plus_h & "; ubrat hodinu = " & cas_minus_h
 650 REMark zapise novou historii, paklize je rozdil
 655 IF wh = 1 THEN 
-657 PRINT "POTVRD ZAPSANI NOVE HISTORIE (Y)"
-660 OPEN_NEW #7, fh$
+657 REMark PRINT "POTVRD ZAPSANI NOVE HISTORIE (Y)"
+660 OPEN_OVER #7, fh$
 665 PRINT #7, usek : PRINT #7, suma
 670 CLOSE #7
 675 END IF 
@@ -119,9 +119,9 @@
 994 LIST #2
 996 REMark PRINT "radek 473 test !"
 997 STOP
-999 s$="FLP3_ZmenaCas"
+999 s$="FLP1_ZmenaCas"
 1000 SAVE s$
 1001 STOP
-1010 l$="flp3_CreateHistFile"
+1010 l$="flp1_CreateHistFile"
 1011 LRUN l$
 1012 STOP

@@ -1,7 +1,7 @@
 5 REMark flp3_CreateHistFile
 6 CLS #1
 7 REMark fh$="histCas" : rem takto zapise na FLP1_
-8 fh$="flp3_HistCas"
+8 fh$="flp1_HistCas"
 9 DELETE fh$
 10 PRINT "byl smazan stary soubor historie"
 11 PRINT '"' & fh$ & '"'
@@ -83,20 +83,20 @@
 510 IF usek = 0 THEN PRINT "chyba usek" : STOP
 515 PRINT usek & "< usek roku ted"
 520 REMark -- zapis souboru historie
-660 OPEN_NEW #7, fh$
+660 OPEN_OVER #7, fh$
 665 PRINT #7, usek : PRINT #7, suma
 670 CLOSE #7
 673 PRINT ""
 675 PRINT "byla zapsan novy soubor historie"
-680 PRINT "nyni spust program " & '"lrun flp3_ZmenaCas"'
+680 PRINT "nyni spust program " & '"lrun flp1_ZmenaCas"'
 685 PRINT "prikazem goto 1010"
 690 LIST #2
 997 STOP
 998 REMark goto 999 = save file
-999 s$="flp3_CreateHistFile"
+999 s$="flp1_CreateHistFile"
 1000 SAVE s$
 1001 STOP
-1010 load$ = "flp3_ZmenaCas"
+1010 load$ = "flp1_ZmenaCas"
 1011 LRUN load$
 1012 REMark programy se muzou poustet na vzajem mezi sebou :)
 1013 REMark jeden se dokonci a na konci zavola lrun load$

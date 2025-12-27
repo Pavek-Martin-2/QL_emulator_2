@@ -1,0 +1,11 @@
+5 REMark "string_to_int_1"
+10 CLS
+20 s$ = "123"
+30 PRINT s$
+40 a = s$
+50 PRINT a
+60 LET a = a + 1
+70 PRINT a
+998 STOP
+999 save$ = "flp1_string_to_int_1"
+1000 SAVE save$

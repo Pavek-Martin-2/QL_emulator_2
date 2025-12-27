@@ -1,0 +1,48 @@
+5 REMark skyrim_4_tlacitka
+10 CLS
+20 LIST
+30 poc = 1
+40 file$ = "flp1_skyrim_4_tlacitka_output.txt"
+50 DIM tlacitka$(4,8)
+60 tlacitka$(1)=" had "
+70 tlacitka$(2)=" lyska "
+80 tlacitka$(3)=" medved "
+90 tlacitka$(4)=" vlk "
+100 hl1$ = "skyrim spravne poradi"
+110 hl2$ = "zmacknuti 4 tlacitek"
+120 PRINT hl1$
+130 PRINT hl2$
+140 OPEN_OVER #7, file$
+150 REMark open_over se napta na prepis existujiciho souboru a prepisuje hned
+160 PRINT #7, hl1$
+170 PRINT #7, hl2$
+180 FOR i = 1234 TO 4321
+190 LET k = 0
+200 a$ = i
+210 num1 = a$(1)
+220 num2 = a$(2)
+230 num3 = a$(3)
+240 num4 = a$(4)
+250 REMark PRINT num1 & " " & num2 & " " & num3 & " " & num4
+260 IF num2 >= 1 AND num2 <= 4 THEN k = k + 1
+270 IF num3 >= 1 AND num3 <= 4 THEN k = k + 1
+280 IF num4 >= 1 AND num4 <= 4 THEN k = k + 1
+290 IF num1 <> num2 THEN k = k + 1
+300 IF num1 <> num3 THEN k = k + 1
+310 IF num1 <> num4 THEN k = k + 1
+320 IF num2 <> num3 THEN k = k + 1
+330 IF num2 <> num4 THEN k = k + 1
+340 IF num3 <> num4 THEN k = k + 1
+350 IF k = 9 THEN 
+360 out$ = ""
+370 IF poc < 10 THEN out$ = "0"
+380 out$ = out$ & poc & " -" & tlacitka$(num1) & tlacitka$(num2) & tlacitka$(num3) & tlacitka$(num4)
+390 PRINT out$
+400 PRINT #7, out$
+410 poc = poc + 1
+420 END IF 
+430 NEXT i
+440 CLOSE #7
+998 STOP
+999 save$ = "flp1_skyrim_4_tlacitka"
+1000 SAVE save$

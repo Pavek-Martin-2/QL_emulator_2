@@ -1,6 +1,6 @@
 5 REMark flp3_CreateHistSelect
 7 CLS #1
-20 fh$="flp3_HistCas"
+20 fh$="flp1_HistCas"
 30 DELETE fh$
 40 PRINT "byl smazan stary soubor historie"
 45 PRINT fh$
@@ -32,9 +32,9 @@
 220 LIST #2
 997 REMark goto 999 = save file
 998 STOP
-999 s$ = "flp3_CreateHistSelect"
+999 s$ = "flp1_CreateHistSelect"
 1000 SAVE s$
 1001 STOP
-1010 l$="flp3_ZmenaCas"
+1010 l$="flp1_ZmenaCas"
 1011 LRUN l$
 1012 STOP
