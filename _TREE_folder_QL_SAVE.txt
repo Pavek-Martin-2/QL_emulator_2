@@ -1,0 +1,570 @@
+02.08.2026 
+12:23
+Folder PATH listing for volume Hdd
+Volume serial number is 000000B0 3A4E:C597
+C:\USERS\DELL\DOCUMENTS\QL_SAVE
+|   FLP1.rar
+|   FLP1_Minerva.rar
+|   FLP2.rar
+|   FLP2_Minerva.rar
+|   FLP3.rar
+|   FLP4.rar
+|   Minerva197_rom
+|   minerva_CFG.QCF
+|   minerva_CFG.rar
+|   Minerva_rom_1.98.lnk
+|   Muj-Cfg-Zde.QCF
+|   Muj-Cfg-Zde.rar
+|   PsionChess.qlpak
+|   QemuLator.lnk
+|   Sinclair QL User Guide.pdf - z stupce.lnk
+|   smfxteam.qlpak
+|   Spook.qlpak
+|   zip_QL_SAVE_1.ps1
+|   _ALL_FLP_RAR.bat
+|   _copy_all_FLP1_Minerva_TO_FLP2_Minerva.bat
+|   _copy_all_FLP1_to_FLP2.bat
+|   _FLP1_Minerva_RAR.bat
+|   _FLP1_RAR.bat
+|   _FLP2_Minerva_RAR.bat
+|   _FLP2_RAR .bat
+|   _FLP3_RAR.bat
+|   _FLP4_RAR.bat
+|   _TREE.bat
+|   _TREE_folder_QL_SAVE.txt
+|   
++---AI_FLP_1
+|       open_over.png
+|       Screenshot 2025-12-17 at 10-27-58 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-17 at 10-28-03 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-17 at 10-28-06 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-17 at 10-28-09 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-17 at 10-28-13 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-17 at 10-28-49 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-17 at 10-28-53 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-23 at 09-56-14 Microsoft Copilot v ç AI pomocn¡k.png
+|       
++---FLP1
+|       16kombin2_out.txt
+|       16kombin_1
+|       16kombin_2
+|       32kombin_1
+|       32kombin_1_out.txt
+|       32kombin_2
+|       6_cykly_do_7
+|       8kombin2_out.txt
+|       8kombin_1
+|       8kombin_2
+|       8_cykly_do_1
+|       arc_1
+|       arc_2
+|       array_1
+|       array_2
+|       array_3
+|       array_4
+|       ascii_1
+|       ascii_2
+|       ascii_tabulka.txt
+|       BarvaKontrast_1
+|       BarvaKontrast_2
+|       block_1
+|       block_2
+|       boolean_1
+|       boolean_2
+|       cara_1
+|       Cards
+|       cary_1
+|       chrs_1
+|       circle_1
+|       circle_2
+|       circle_3
+|       CisloDne_1
+|       CisloDne_2
+|       cls_1
+|       cls_2
+|       cls_3
+|       ColouredSquares_1
+|       CreateHistFile
+|       CreateHistSelect
+|       CreateWindow_1
+|       CreateWindow_2
+|       CreateWindow_3
+|       CreateWindow_4
+|       CreateWindow_5
+|       data_1
+|       date_1
+|       date_2
+|       date_3
+|       date_4
+|       date_41
+|       date_5
+|       date_51
+|       desetiny_cislo_1
+|       DexCas_1
+|       DexCas_2
+|       DexCas_modify_1
+|       DiffDate_1Nejde
+|       dir_1
+|       dir_2
+|       dve_kostky_hazeni_1
+|       fib_1
+|       fib_2
+|       fib_2_out.txt
+|       fib_3
+|       fib_3_out.txt
+|       fib_4
+|       fib_4_out.txt
+|       fill_1
+|       funkce_1
+|       funkce_2
+|       funkce_3
+|       funkce_4
+|       HeslaDen_122
+|       HeslaDen_155
+|       HistCas
+|       hodinyCz_2
+|       hodiny_1
+|       hvezda_z_car_1
+|       hvezda_z_car_2
+|       if_1
+|       if_2
+|       if_3
+|       if_4
+|       ink_1
+|       input_1
+|       InsertSort_1
+|       InsertSort_2
+|       InsertSort_3
+|       InsertSort_4
+|       InsertSort_5
+|       InsertSort_6
+|       InsertSort_7
+|       int_1
+|       int_2
+|       int_to_string_1
+|       kostka_1
+|       LineTo_1
+|       LineTo_2
+|       load_1
+|       MagicSnake_1
+|       MagicSnake_2
+|       matrix_1
+|       matrix_2
+|       matrix_3
+|       mod_div_1
+|       monitor_1
+|       monoskop_1
+|       monoskop_2
+|       numericke_operace_1
+|       n_kombin_1
+|       n_kombin_2
+|       OknoKruhy_1
+|       OknoKruhy_2
+|       OpenReadFile_1
+|       OpenReadFile_2
+|       OpenWriteFile_1
+|       OpenWriteFile_2
+|       palindromes
+|       paper_1
+|       pixel_1
+|       pi_1
+|       pi_2
+|       porovnani_1
+|       porovnani_2
+|       PrestupnyRok_1
+|       PrestupnyRok_2
+|       PrintOkno_1
+|       print_1
+|       print_za_sebou_1
+|       repeat_1
+|       RndHesla_1
+|       RndHesla_2
+|       RndSave_1
+|       rnd_1
+|       rnd_2
+|       rnd_3
+|       rnd_cara_1
+|       roman_convert_1
+|       roman_convert_2
+|       roman_convert_3
+|       roman_convert_4
+|       roman_convert_4_out.txt
+|       rotate_asm
+|       rotate_bas
+|       rotate_code
+|       rovnice_1
+|       scitani_strings_1
+|       scroll_1
+|       skyrim_3K3S
+|       skyrim_4_tlacitka
+|       skyrim_4_tlacitka_output.txt
+|       skyrim_5_tlacitek
+|       skyrim_5_tlacitek_output.txt
+|       skyrim_output_3K3S.txt
+|       SmazMe!
+|       Sort_2A
+|       Sort_2A_MixArray
+|       Sort_2B
+|       Sort_2B_SortedArray
+|       StringSub_1
+|       StringSub_2
+|       StringSub_3
+|       strings_len_1
+|       string_to_int_1
+|       SUM
+|       test
+|       wcopy_1
+|       x
+|       ZmenaCas
+|       ZmenaCas_2
+|       
++---FLP1_Minerva
+|       cyklus_1
+|       cyklus_2
+|       cyklus_3
+|       cyklus_4
+|       cyklus_5
+|       cyklus_6
+|       oken_6
+|       okno_basic_1
+|       okno_basic_2
+|       test
+|       x
+|       xx
+|       
++---FLP1_Minerva_Screenshots
+|       Screenshot-02_08_2026_11-21-07.jpg
+|       Screenshot-02_08_2026_11-35-13.jpg
+|       Screenshot-02_08_2026_11-38-52.jpg
+|       Screenshot-02_08_2026_11-42-50.jpg
+|       Screenshot-02_08_2026_12-07-10.jpg
+|       Screenshot-02_08_2026_12-09-41.jpg
+|       Screenshot-02_08_2026_12-12-17.jpg
+|       Screenshot-02_08_2026_12-13-08.jpg
+|       Screenshot-02_08_2026_12-20-05.jpg
+|       Screenshot-26_07_2026_16-56-28.jpg
+|       
++---FLP1_Screenshots
+|       Screenshot-02_05_2025_07-48-51.jpg
+|       Screenshot-02_05_2025_07-51-24.jpg
+|       Screenshot-16_12_2025_09-01-50.jpg
+|       Screenshot-16_12_2025_09-02-56.jpg
+|       Screenshot-16_12_2025_09-03-59.jpg
+|       Screenshot-24_12_2025_06-54-55.jpg
+|       Screenshot-24_12_2025_06-55-45.jpg
+|       Screenshot-24_12_2025_07-02-58.jpg
+|       Screenshot-24_12_2025_08-39-11.jpg
+|       Screenshot-24_12_2025_08-56-39.jpg
+|       Screenshot-24_12_2025_09-43-12.jpg
+|       Screenshot-24_12_2025_11-29-34.jpg
+|       Screenshot-24_12_2025_11-55-05.jpg
+|       Screenshot-25_12_2025_06-59-02.jpg
+|       
++---FLP2
+|       16kombin2_out.txt
+|       16kombin_1
+|       16kombin_2
+|       32kombin_1
+|       32kombin_1_out.txt
+|       32kombin_2
+|       6_cykly_do_7
+|       8kombin2_out.txt
+|       8kombin_1
+|       8kombin_2
+|       8_cykly_do_1
+|       arc_1
+|       arc_2
+|       array_1
+|       array_2
+|       array_3
+|       array_4
+|       ascii_1
+|       ascii_2
+|       ascii_tabulka.txt
+|       BarvaKontrast_1
+|       BarvaKontrast_2
+|       block_1
+|       block_2
+|       boolean_1
+|       boolean_2
+|       cara_1
+|       Cards
+|       cary_1
+|       chrs_1
+|       circle_1
+|       circle_2
+|       circle_3
+|       CisloDne_1
+|       CisloDne_2
+|       cls_1
+|       cls_2
+|       cls_3
+|       ColouredSquares_1
+|       CreateHistFile
+|       CreateHistSelect
+|       CreateWindow_1
+|       CreateWindow_2
+|       CreateWindow_3
+|       CreateWindow_4
+|       CreateWindow_5
+|       data_1
+|       date_1
+|       date_2
+|       date_3
+|       date_4
+|       date_41
+|       date_5
+|       date_51
+|       desetiny_cislo_1
+|       DexCas_1
+|       DexCas_2
+|       DexCas_modify_1
+|       DiffDate_1Nejde
+|       dir_1
+|       dir_2
+|       dve_kostky_hazeni_1
+|       fib_1
+|       fib_2
+|       fib_2_out.txt
+|       fib_3
+|       fib_3_out.txt
+|       fib_4
+|       fib_4_out.txt
+|       fill_1
+|       funkce_1
+|       funkce_2
+|       funkce_3
+|       funkce_4
+|       HeslaDen_122
+|       HeslaDen_155
+|       HistCas
+|       hodinyCz_2
+|       hodiny_1
+|       hvezda_z_car_1
+|       hvezda_z_car_2
+|       if_1
+|       if_2
+|       if_3
+|       if_4
+|       ink_1
+|       input_1
+|       InsertSort_1
+|       InsertSort_2
+|       InsertSort_3
+|       InsertSort_4
+|       InsertSort_5
+|       InsertSort_6
+|       InsertSort_7
+|       int_1
+|       int_2
+|       int_to_string_1
+|       kostka_1
+|       LineTo_1
+|       LineTo_2
+|       load_1
+|       MagicSnake_1
+|       MagicSnake_2
+|       matrix_1
+|       matrix_2
+|       matrix_3
+|       mod_div_1
+|       monitor_1
+|       monoskop_1
+|       monoskop_2
+|       numericke_operace_1
+|       n_kombin_1
+|       n_kombin_2
+|       OknoKruhy_1
+|       OknoKruhy_2
+|       OpenReadFile_1
+|       OpenReadFile_2
+|       OpenWriteFile_1
+|       OpenWriteFile_2
+|       palindromes
+|       paper_1
+|       pixel_1
+|       pi_1
+|       pi_2
+|       porovnani_1
+|       porovnani_2
+|       PrestupnyRok_1
+|       PrestupnyRok_2
+|       PrintOkno_1
+|       print_1
+|       print_za_sebou_1
+|       repeat_1
+|       RndHesla_1
+|       RndHesla_2
+|       RndSave_1
+|       rnd_1
+|       rnd_2
+|       rnd_3
+|       rnd_cara_1
+|       roman_convert_1
+|       roman_convert_2
+|       roman_convert_3
+|       roman_convert_4
+|       roman_convert_4_out.txt
+|       rotate_asm
+|       rotate_bas
+|       rotate_code
+|       rovnice_1
+|       scitani_strings_1
+|       scroll_1
+|       skyrim_3K3S
+|       skyrim_4_tlacitka
+|       skyrim_4_tlacitka_output.txt
+|       skyrim_5_tlacitek
+|       skyrim_5_tlacitek_output.txt
+|       skyrim_output_3K3S.txt
+|       SmazMe!
+|       Sort_2A
+|       Sort_2A_MixArray
+|       Sort_2B
+|       Sort_2B_SortedArray
+|       StringSub_1
+|       StringSub_2
+|       StringSub_3
+|       strings_len_1
+|       string_to_int_1
+|       SUM
+|       test
+|       wcopy_1
+|       x
+|       ZmenaCas
+|       ZmenaCas_2
+|       
++---FLP2_Minerva
+|       cyklus_1
+|       cyklus_2
+|       cyklus_3
+|       cyklus_4
+|       cyklus_5
+|       cyklus_6
+|       oken_6
+|       okno_basic_1
+|       okno_basic_2
+|       test
+|       x
+|       xx
+|       
++---FLP3
+|       cal_1.txt
+|       cal_10.txt
+|       cal_11.txt
+|       cal_12.txt
+|       cal_2.txt
+|       cal_3.txt
+|       cal_4.txt
+|       cal_5.txt
+|       cal_6.txt
+|       cal_7.txt
+|       cal_8.txt
+|       cal_9.txt
+|       CreateHistFile
+|       CreateHistSelect
+|       CTI_ME.txt
+|       HistCas
+|       images.jpeg
+|       kontrola_ql.sh
+|       linux_test_command.txt
+|       ql_1.txt
+|       ql_10.txt
+|       ql_11.txt
+|       ql_12.txt
+|       ql_2.txt
+|       ql_3.txt
+|       ql_4.txt
+|       ql_5.txt
+|       ql_6.txt
+|       ql_7.txt
+|       ql_8.txt
+|       ql_9.txt
+|       SakamotoAlgo
+|       SakamotoTest
+|       sakamoto_url.txt
+|       SmazMe!
+|       test_ql.sh
+|       ZmenaCas
+|       ZmenaCas_2
+|       
++---FLP3_Screenshots
+|       Screenshot-28_04_2025_20-45-54.jpg
+|       Screenshot-30_04_2025_08-26-14.jpg
+|       Screenshot-30_04_2025_08-29-26.jpg
+|       Screenshot-30_04_2025_08-31-04.jpg
+|       Screenshot-30_04_2025_08-31-19.jpg
+|       Screenshot-30_04_2025_08-31-49.jpg
+|       Screenshot-30_04_2025_08-32-04.jpg
+|       Screenshot-30_04_2025_08-44-59.jpg
+|       Screenshot-30_04_2025_08-50-29.jpg
+|       
++---FLP4
+|       8kombin_1
+|       aa
+|       aa2
+|       
++---QL_elseif_apod
+|       Screenshot 2025-12-08 at 14-48-44 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-48-55 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-49-07 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-49-14 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-49-25 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-49-34 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-49-42 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-50-12 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-50-20 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-50-29 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-50-36 Microsoft Copilot v ç AI pomocn¡k.png
+|       Screenshot 2025-12-08 at 14-50-44 Microsoft Copilot v ç AI pomocn¡k.png
+|       
++---Screenshots_ruzne
+|   |   Screenshot-26_04_2025_07-23-51.jpg
+|   |   Screenshot-26_04_2025_07-24-51.jpg
+|   |   Screenshot-26_04_2025_07-32-09.jpg
+|   |   Screenshot-26_04_2025_07-35-37.jpg
+|   |   Screenshot-26_04_2025_07-36-39.jpg
+|   |   Screenshot-26_04_2025_07-41-58.jpg
+|   |   Screenshot-26_04_2025_07-43-18.jpg
+|   |   Screenshot-26_04_2025_07-46-32.jpg
+|   |   Screenshot-26_04_2025_07-49-08.jpg
+|   |   Screenshot-26_04_2025_07-50-56.jpg
+|   |   Screenshot-26_04_2025_07-51-58.jpg
+|   |   Screenshot-26_04_2025_08-00-59.jpg
+|   |   Screenshot-26_04_2025_08-05-05.jpg
+|   |   Screenshot-26_04_2025_08-11-43.jpg
+|   |   Screenshot-26_04_2025_08-12-33.jpg
+|   |   Screenshot-26_04_2025_08-14-07.jpg
+|   |   Screenshot-26_04_2025_08-14-45.jpg
+|   |   Screenshot-26_04_2025_08-16-29.jpg
+|   |   Screenshot-26_04_2025_08-49-09.jpg
+|   |   Screenshot-26_04_2025_08-49-41.jpg
+|   |   Screenshot-26_04_2025_08-51-02.jpg
+|   |   Screenshot-26_04_2025_08-52-27.jpg
+|   |   Screenshot-26_04_2025_08-52-41.jpg
+|   |   Screenshot-26_04_2025_08-53-09.jpg
+|   |   Screenshot-26_04_2025_08-55-58.jpg
+|   |   Screenshot_2025-04-21-07-34-08-011.jpeg
+|   |   
+|   \---konfigurace_emulatoru
+|           a.bat
+|           Cpp.jpg
+|           editace_zastupce_programu.jpg
+|           puvodni_krok_1.jpg
+|           puvodni_krok_2.jpg
+|           puvodni_krok_3.jpg
+|           spusteno_pres_davkovy_soubor.jpg
+|           spusteno_pres_editovaneho_zastupce.jpg
+|           
++---scr_editor_Geany
+|       obr_1.jpg
+|       obr_10.jpg
+|       obr_11.jpg
+|       obr_2.jpg
+|       obr_3.jpg
+|       obr_4.jpg
+|       
++---XXMinerva197_rom
+|       Minerva197_rom
+|       
+\---_UDELAT
