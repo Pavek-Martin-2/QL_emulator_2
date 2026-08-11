@@ -1,0 +1,4 @@
+5 REMark cyklus_4
+10 FOR a = 9999 TO 1 STEP -1
+20 PRINT a,
+30 NEXT a

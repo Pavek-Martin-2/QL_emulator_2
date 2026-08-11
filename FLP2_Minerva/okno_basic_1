@@ -1,0 +1,8 @@
+5 REMark exec pipep
+10 EXEC pipep
+15 LRUN okno_basic_1
+20 EXEC pipep
+25 LRUN okno_basic_2
+30 EXEC pipep
+35 LRUN okno_basic_3
+40 PRINT "zde"

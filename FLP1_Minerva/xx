@@ -1,0 +1,7 @@
+5 REMark 6 oken
+10 FOR w = 1 TO 6
+20 EXEC pipep
+30 NEXT w
+100 FOR c = 1 TO 6
+110 CLOSE #0
+120 NEXT c
